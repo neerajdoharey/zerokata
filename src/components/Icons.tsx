@@ -6,9 +6,8 @@ import Icon from 'react-native-vector-icons/FontAwesome6';
 type IconsProps = PropsWithChildren<{
   name: string
 }>
-// <FontAwesomeIcon icon={faCircle} />
-// <FontAwesomeIcon icon={faXmark} />
-const Icons = ({name}) => {
+
+const Icons = ({name}:IconsProps) => {
   switch (name) {
     case 'circle':
       return <Icon name='circle' size={38} color="#900" />
