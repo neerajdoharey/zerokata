@@ -5,7 +5,7 @@ const App = () => {
   return (
     <SafeAreaView>
       <Text>App Hello 1</Text>
-      <Icons name={'cross'}/>
+      <Icons name={'pencil'}/>
     </SafeAreaView>
   )
 }
