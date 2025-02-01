@@ -33,3 +33,5 @@ target 'zerokata' do
     )
   end
 end
+
+pod 'RNSnackbar', :path => '../node_modules/react-native-snackbar'
