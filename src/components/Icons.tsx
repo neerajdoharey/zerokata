@@ -10,15 +10,15 @@ type IconsProps = PropsWithChildren<{
 const Icons = ({name}:IconsProps) => {
   switch (name) {
     case 'circle':
-      return <Icon name='circle' size={38} color="#F7CD2E" />
+      return <Icon name='circle' size={48} color="#F7CD2E" />
       break;
   
     case 'cross':
-      return <Icon name='xmark' size={38} color="#38CC77" />
+      return <Icon name='xmark' size={48} color="#38CC77" />
       break;
 
     default:
-      return <Icon name='pencil' size={38} color="#0D0D0D" />      
+      return       
   }
 }
 
